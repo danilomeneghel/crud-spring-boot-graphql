@@ -8,6 +8,12 @@ query {
   }
 }
 
+query {
+  findByIdPerson (id:1) {
+    id, name, genre, age
+  }
+}
+
 mutation {
   createPerson (
     person: {
@@ -34,6 +40,6 @@ mutation {
   }
 }
 
-mutation{
+mutation {
   deletePerson(id:1)
 }
