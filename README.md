@@ -1,26 +1,40 @@
-### Tech Stack
+# Simples API GraphQL
+
+Cadastro de Pessoas utilizando Spring-Boot com GraphQL.
+
+## Características
+
+- CRUD
+- API GraphQL
+
+## Requisitos
+
+- Java OpenJDK 16
+- Apache Maven >= 3.6.3
+- Postman
+
+## Tecnologias
 
 - Java
+- JPA
+- Lombok
 - Spring Boot
 - Maven
+- H2
 - [GraphQL](https://github.com/leangen/graphql-spqr)
 
-### O que é?
-
-CRUD utilizando GraphQL
-
-### Como rodar?
+## Como rodar?
 
 - Execute **`mvn clean package`**
 - Execute **`mvn spring-boot:run`**
 
 > **POST** http://localhost:8080/graphql
 
-### GraphiQL Playground
+## GraphiQL Playground
 
 http://localhost:8080/
 
-### Exemplos
+## Exemplos
 
 ```
     query {
